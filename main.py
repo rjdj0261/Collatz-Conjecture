@@ -1,5 +1,7 @@
 import random as rd
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+from rich import print
+# a = int(rd.random()*10**10)
 a=rd.randint(0,100)
 b=a
 c=0
@@ -18,8 +20,8 @@ print("Original No. =",a)
 print("Hailstone Nos. =",d)
 print("No. of Repetitions =",c)
 
-#y=d
-#x=range(len(y))
-#plt.plot(x,y)
+y=d
+x=range(len(y))
+plt.plot(x,y)
 
-#plt.show()
+plt.show()
