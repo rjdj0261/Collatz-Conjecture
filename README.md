@@ -1,22 +1,16 @@
-# Python on Replit
+# Collatz Conjecture
 
-This is a template to get you started with Python on Replit. It's ready to go so you can just hit run and start coding!
+This is a collatz conjecture prover that I am trying to use to prove collatz conjecture.
 
-## Running the repl
+## Running the code
 
-Simply hit run! You can edit the run command from the `.replit` file.
+Simply hit run after installing the necessary modules!
 
-## Installing packages
+## Contributing
 
-To add packages to your repl, you can just import directly in the file you want to use the package in, and it will automatically be installed when you press the run button. Like below:
-```python
-import math
-import pandas as pd
-from flask import Flask
-```
+You can contribute by opening a pull request if you have any suggestions.
 
-You could also install packages by using the Replit packager interface in the left sidebar.
+## Proved
 
-## Help
-
-If you need help you might be able to find an answer on our [docs](https://docs.replit.com) page. Feel free to report bugs and give us feedback [here](https://replit.com/support).
+1. We can use 1 instead of 3 and it will still work,
+2. All numbers will eventually fall down to 1.
