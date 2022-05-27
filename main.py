@@ -1,8 +1,10 @@
 import random as rd
 import matplotlib.pyplot as plt
 from rich import print
-# a = int(rd.random()*10**10)
-a = rd.randint(0, 100)
+
+# a = int(rd.random() * 10**100)
+# a = rd.randint(0, 100)
+a = 10**100
 b = a
 c = 0
 d = []
@@ -14,7 +16,7 @@ while b != 1:
         if b % 2 == 0:
             b //= 2
         else:
-            b = (b*3+1)//2
+            b = (b * 3 + 1) // 2
     else:
         run_successly = False
         break
